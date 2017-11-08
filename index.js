@@ -14,3 +14,9 @@ function nameToAttributes(array){
   return { firstName: arrayFN, lastName: arrayLN};
 });
 }
+
+function attributesToPhrase(array){
+return drivers.map(function (driver){
+  return '${drivers[name] is from ${drivers[homestown]}}';
+});
+}
