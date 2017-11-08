@@ -6,11 +6,12 @@ function lowerCaseDrivers(array){
   });
 }
 
-/*function nameToAttributes(array){
-  let array3 = [];
-  return array.map(function(array3){
-  '${firstName} ${lastName}'
-}} */
+function nameToAttributes(array) {
+  var newObj = {};
+  for (var i = 0; i < array.length; ++i)
+    newObj[i] = array[i];
+  return newObj;
+}
 
 /*this function takes an array of drivers, and returns
 an array of the drivers names in lowercase.*/
