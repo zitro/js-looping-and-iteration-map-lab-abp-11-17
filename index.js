@@ -12,4 +12,5 @@ function nameToAttributes(array){
     const arrayFN = array3.split(' ')[0];
     const arrayLN = array3.split(' ')[1];
   return { firstName: arrayFN, lastName: arrayLN};
+});
 }
