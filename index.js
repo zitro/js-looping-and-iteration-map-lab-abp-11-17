@@ -17,6 +17,6 @@ function nameToAttributes(array){
 
 function attributesToPhrase(array){
 return array.map(function (array4){
-  return '${array4[name] is from ${array4[homestown]}}';
+  return `${array4[name] is from ${array4[homestown]}}`;
 });
 }
